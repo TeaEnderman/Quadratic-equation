@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+        }
+        .container {
+            margin: 0 auto;
+            width: 300px;
+        }
+        input[type="number"] {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Quadratic Equation Solver</h2>
+        <p>Enter the coefficients for the quadratic equation (ax² + bx + c = 0)</p>
+        <input type="number" id="a" placeholder="a">x² +
+        <input type="number" id="b" placeholder="b">x +
+        <input type="number" id="c" placeholder="c"> = 0
+        <br><br>
+        <button onclick="solve()">Solve</button>
+        <p id="solution"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
